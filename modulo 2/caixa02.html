@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+    
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        header > h1 {
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.534);
+        }
+        nav{
+            background-color: rgb(104, 102, 102);
+            padding: 3px;
+            text-align: right;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 1px;
+            border-radius: 10px;
+            margin: 0px;
+        }
+        article > aside {
+            background-color: rgb(126, 126, 126);
+            padding: 1px;
+            margin: 10px; 
+        }
+        article > h2 {
+            text-align: justify;
+            padding: 3px;
+            text-align: center;
+        }
+        article > p {
+            padding: 10px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            padding: 1px;
+            margin: 0px;
+        }
+        aside > p {
+            padding: 1px;
+            margin: 2px;
+            text-align: center;
+        }
+        #assuntos{
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav> 
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia
+            </p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vitae error natus optio quaerat beatae ut cum laudantium ullam. Maxime cupiditate placeat excepturi! Voluptatibus incidunt recusandae ex, officiis dolore odio.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva.</p>
+                </aside>
+
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo.</p>
+    </footer>
+</body>
+</html>
